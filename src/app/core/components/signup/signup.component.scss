@@ -1,0 +1,204 @@
+.signup {
+
+  /* Rectangle 2 */
+  h2{
+  position: absolute;
+  width: 810px;
+  height: 770px;
+  left: 555px;
+  top: 164px;
+  background: #FFFFFF;
+  }
+
+  h1{
+  position: absolute;
+  width: 1921.5px;
+  height: 0px;
+  left: 0px;
+  top: 344.5px;
+  border: 1px solid #FFFFFF;
+  }
+
+  h3{
+    /* Login */
+  position: absolute;
+  width: 810px;
+  height: 133px;
+  left: 556px;
+  top: 164px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  color: #000000;
+  }
+
+  h5{
+    /* Welcome back. Login with your data that you entered during your registration. */
+
+  position: absolute;
+  width: 810px;
+  height: 83px;
+  left: 552px;
+  top: 300px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #000000;
+  }
+
+  h1{
+    /* Keep me logged in */
+
+  position: absolute;
+  width: 141px;
+  height: 22px;
+  left: 721px;
+  top: 585px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+
+  color: #000000;
+  }
+
+  button{
+    /* Property 1=Shadow */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+
+  position: absolute;
+  width: 270px;
+  height: 46px;
+  left: 20px;
+  top: 25px;
+
+  background: #147839;
+  box-shadow: 0px 4px 8px rgba(20, 120, 57, 0.1);
+  border-radius: 6px;
+
+
+  /* Button */
+
+  width: 270px;
+  height: 46px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #FFFFFF;
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  }
+
+  button:hover{
+    /* Property 2=otlined */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+
+  position: absolute;
+  width: 270px;
+  height: 46px;
+  left: 20px;
+  top: 81px;
+
+  border: 2px solid #147839;
+  border-radius: 6px;
+  background: #ffffff;
+
+  /* Button */
+
+  width: 270px;
+  height: 46px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #147839;
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  }
+  #FirstName{
+    width: 500px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+  }
+  #LastName{
+    width: 500px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+
+  }
+  #Email{
+    width: 500px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  #SetPassword{
+    width: 500px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  }
