@@ -1,12 +1,36 @@
-.not-found {
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Inter);
 
-img{
+.img1{
+  position: absolute;
+  width: 275px;
+  height: 200px;
+  left: 139px;
+  top: 0px;
+}
+.img2{
     position: absolute;
     width: 922px;
     height: 607px;
     left: 499px;
     top: 237px;
 }
+
+h1{
+  position: absolute;
+  width: 346px;
+  height: 75px;
+  left: 414px;
+  top: 0px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  color: #FFFFFF;
+  }
+
 
 button{
 /* Button2 */
@@ -28,7 +52,7 @@ gap: 10px;
 
 position: absolute;
 width: 125px;
-height: 41px;
+height: 51px;
 left: 897px;
 top: 900px;
 
@@ -41,7 +65,7 @@ button:hover{
 /* Button */
 
 width: 125px;
-height: 41px;
+height: 51px;
 
 font-family: 'Roboto';
 font-style: normal;
@@ -58,6 +82,4 @@ border: 2px solid #ffffff;
 flex: none;
 order: 0;
 flex-grow: 0;
-}
-
 }
