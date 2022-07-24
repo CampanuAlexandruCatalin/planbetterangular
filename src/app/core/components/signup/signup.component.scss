@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 .signup {
 
-  /* Rectangle 2 */
+
   form{
   position: absolute;
   width: 700px;
@@ -13,7 +13,7 @@
 
   h4{
     right:-40px;
-    /* Login */
+
   position: absolute;
   width: 810px;
   height: 133px;
@@ -179,7 +179,7 @@ top:-20px;
 
   hr{
 position: absolute;
-top:150px;
+top:250px;
     height:2px;
     width:1535px;
 
@@ -241,5 +241,11 @@ font-family: 'Inter';
 
   color: #000000;
 }
-
+.img{
+  position: absolute;
+  width: 275px;
+  height: 150px;
+  left: 50px;
+  top: -10px;
+}
 }
