@@ -1,31 +1,28 @@
+<img src="./assets/images/logo.svg" class="img1">
+<h1>PlanBetter</h1>
 
-<div class="signup">
- <img src="./assets/images/logo.svg" class="img">
-  <hr>
-<form >
-
+  <h2></h2>
+  <h3></h3>
   <h4>Sign Up</h4>
-  <h5> Create an account and start plan better your exams. </h5>
+  <h5> Create an account and start plan better your exams.</h5>
 
-<div >
+  <label for="fname" class="fnamel">First Name</label>
+  <input id="fname" type="text" name="fname" style="top:345px;">
 
-    <label for="FirstName">First Name</label>
-    <input id="FirstName"  placeholder="First Name" type="text" name="FirstName">
+  <label for="lname" class="lnamel">Last Name</label>
+  <input id="lname" type="text" name="lname"style="top:425px;">
 
+  <label for="email" class="emaill">Email</label>
+  <input id="email" type="text" name="email" style="top:505px;">
 
-    <label for="LastName">Last Name</label>
-    <input id="LastName" placeholder="Last Name" type="text" name="LastName">
+  <label for="password" class="passwordl">Password</label>
+  <input id="password" type="password" name="password" style="top:585px;">
 
+  <label for="rpassword" class="rpasswordl">Retype Password</label>
+  <input id="rpassword" type="password" name="rpassword" style="top:665px;">
 
-    <label for="Email">Email</label>
-    <input id="Email"  placeholder="Email" type="text" name="Email">
+  <input type="checkbox" id="keep" name="keep" value="keeplogin"class="checkboxpos">
+  <label for="keep" class="checkboxtxtpos"> Agree with Terms & Conditions</label><br>
 
-    <label for="SetPassword">Set Password</label>
-    <input id="SetPassword" placeholder="Password" type="password" name="SetPassword">
-</div>
-
-    <button  id="login">Login</button>
-    <button id="signup">Sign Up</button>
-
-</form>
-</div>
+  <button class="button"(click)="router.navigate(['/signup']);" style=" position: fixed;left: 830px; top: 825px;">Sign Up</button>
+  <button class="button"(click)="router.navigate(['/login']);"  style=" position: fixed;left: 830px; top: 895px;">Login </button>

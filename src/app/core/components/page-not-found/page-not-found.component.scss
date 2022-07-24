@@ -2,14 +2,16 @@
 @import url(https://fonts.googleapis.com/css?family=Inter);
 
 .img1{
-  position: absolute;
+    /* Logo */
+  position: fixed;
   width: 275px;
   height: 200px;
   left: 139px;
   top: 0px;
 }
 .img2{
-    position: absolute;
+  /* Imagine eroare */
+    position: fixed;
     width: 922px;
     height: 607px;
     left: 499px;
@@ -17,7 +19,8 @@
 }
 
 h1{
-  position: absolute;
+  /* PlanBetter langa logo */
+  position: fixed;
   width: 346px;
   height: 75px;
   left: 414px;
@@ -34,7 +37,6 @@ h1{
 
 button{
 /* Button2 */
-
 box-sizing: border-box;
 
 font-family: 'Roboto';
@@ -49,18 +51,16 @@ justify-content: center;
 align-items: center;
 padding: 10px;
 gap: 10px;
-
-position: absolute;
+position: fixed;
 width: 125px;
 height: 51px;
 left: 897px;
 top: 900px;
-
 background: #FFFFFF;
 border: 2px solid #147839;
 border-radius: 6px;
-
 }
+
 button:hover{
 /* Button */
 

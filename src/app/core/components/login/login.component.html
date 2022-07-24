@@ -1,27 +1,20 @@
-<div class="login">
-  <h2>
-    <br><br><br><br><br><br><br><br>
-    <label style="position: absolute;left:400px;top:100"for="email">Email</label><br>
-    <input style="position: absolute;left:200px;top:100"id="email" type="text" name="email">
-    <br><br><br>
-    <label style="position: absolute;left:400px;top:800"for="password">Password</label><br>
-    <input style="position: absolute;left:200px;top:100"id="password" type="password" name="password">
+<img src="./assets/images/logo.svg" class="img1">
+<h1>PlanBetter</h1>
 
-    <button style=" position: absolute;
-    left: 280px;
-    top: 520px;">Login</button>
+  <h2></h2>
+  <h3></h3>
+  <h4>Login</h4>
+  <h5> Welcome back. Login with your data that you entered during your registration.</h5>
 
-  <button style=" position: absolute;
-left: 280px;
-top: 586px;">Forgot password</button>
+    <label for="email" class="emaill">Email</label>
+    <input id="email" type="text" name="email">
 
-<button style=" position: absolute;
-    left: 280px;
-    top: 652px;">Sign Up</button>
-  </h2>
+    <label for="password" class="passwordl">Password</label>
+    <input id="password" type="password" name="password">
 
-  <h3>Login</h3>
-  <h6> Welcome back. Login with your data that you entered during your registration.</h6>
-  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-  <hr style="height:3px;width:1880px;color:rgb(255, 255, 255);background-color:rgb(255, 255, 255)">
-</div>
+    <input type="checkbox" id="keep" name="keep" value="keeplogin"class="checkboxpos">
+    <label for="keep" class="checkboxtxtpos"> Keep me logged in</label><br>
+
+    <button class="button"(click)="router.navigate(['/login']);" style=" position: fixed;left: 830px; top: 650px;">Login</button>
+    <button class="button"(click)="router.navigate(['/forgotpassword']);"  style=" position: fixed;left: 830px; top: 720px;">Forgot password </button>
+    <button class="button"(click)="router.navigate(['/signup']);" style=" position: fixed;left: 830px; top: 790px;">Sign Up</button>

@@ -1,30 +1,57 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
-.signup {
+@import url(https://fonts.googleapis.com/css?family=Inter);
 
+.img1{
+  /* Logo */
+  position: fixed;
+  width: 275px;
+  height: 200px;
+  left: 139px;
+  top: 0px;
+}
 
-  form{
-  position: absolute;
-  width: 700px;
-  height: 643px;
-  left: 450px;
-  top: 50px;
+h1{
+  /* PlanBetter langa logo */
+  position: fixed;
+  width: 346px;
+  height: 75px;
+  left: 414px;
+  top: 0px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  color: #FFFFFF;
+  }
+  h2{
+    /* Rectangle 2 */
+  position: fixed;
+  width: 810px;
+  height: 770px;
+  left: 555px;
+  top: 164px;
   background: #FFFFFF;
   }
-  ::placeholder{
-    font-family: 'Inter';
-  font-style: normal;
-  font-weight: 40;
-    font-size: 15px;
-    color:grey;
-  }
-  h4{
-    right:-40px;
 
-  position: absolute;
+  h3{
+    /* Linie */
+    position: fixed;
+    width: 1921.5px;
+    height: 0px;
+    left: 0px;
+    top: 344.5px;
+    border: 1px solid #FFFFFF;
+  }
+
+  h4{
+    /* Login */
+  position: fixed;
   width: 810px;
   height: 133px;
-
-top:-20px;
+  left: 556px;
+  top: 164px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -32,20 +59,21 @@ top:-20px;
   line-height: 39px;
   text-align: center;
   color: #000000;
+  font-weight: bold;
   }
 
   h5{
-    /* Welcome back. Login with your data that you entered during your registration. */
+    /* Create an account and start plan better your exams. */
 
-  position: absolute;
-  width: 801px;
-  height: 83px;
-  right:-70px;
-  top: 45px;
+  position: fixed;
+  width: 810px;
+  height: 53px;
+  left: 552px;
+  top: 245px;
 
   font-family: 'Inter';
   font-style: normal;
-  font-weight: 40;
+  font-weight: 400;
   font-size: 20px;
   line-height: 24px;
   text-align: center;
@@ -55,204 +83,220 @@ top:-20px;
 
 
   button{
+  /* Property 1=Shadow */
 
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  gap: 10px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
 
-  position: absolute;
-  width: 270px;
-  height: 40px;
-
-  right:-20px;
-
-  background: #147839;
-  box-shadow: 0px 4px 8px rgba(20, 120, 57, 0.1);
-  border-radius: 6px;
-
-
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 21px;
-  /* identical to box height */
-
-  color: #FFFFFF;
-
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-
-  }
-
-  button:hover{
-    /* Property 2=otlined */
-
-  box-sizing: border-box;
-
-  /* Auto layout */
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  gap: 10px;
-
-  position: absolute;
-  width: 270px;
-  height: 40px;
-
-
-
-  border: 2px solid #147839;
-  border-radius: 6px;
-  background: #ffffff;
-
-  /* Button */
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 21px;
-  /* identical to box height */
-
-  color: #147839;
-
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-
-  }
-
-  #FirstName{
-    width: 500px;
-    top:150px;
-    position: absolute;
-    left:100px;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-
-  }
-  #LastName{
-    width: 500px;
-    position: absolute;left:100px;
-    padding: 12px 20px;
-    margin: 8px 0;
-    top:250px;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-
-
-  }
-  #Email{
-    width: 500px;
-    position: absolute;left:100px;
-    padding: 12px 20px;
-    margin: 8px 0;
-    top:350px;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
-  #SetPassword{
-    position: absolute;left:100px;
-    width: 500px;
-    padding: 12px 20px;
-    margin: 8px 0;
-    top:450px;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-
-  hr{
 position: absolute;
-top:200px;
-    height:2px;
-    width:1535px;
+width: 270px;
+height: 46px;
+left: 20px;
+top: 25px;
 
-    border-width:0;
-    color:rgb(255, 255, 255);
-    background-color:rgb(255, 255, 255);
-  }
+background: #147839;
+box-shadow: 0px 4px 8px rgba(20, 120, 57, 0.1);
+border-radius: 6px;
 
 
-#login{
-  left: 200px;
-    top: 520px;
+/* Button */
+
+width: 270px;
+height: 46px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
 }
-#signup{
-  left: 200px;
-  top: 590px;
+
+button:hover{
+  /* Property 2=otlined */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+position: absolute;
+width: 270px;
+height: 46px;
+left: 20px;
+top: 81px;
+border: 2px solid #147839;
+border-radius: 6px;
+background: #ffffff;
+/* Button */
+
+width: 270px;
+height: 46px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+color: #147839;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+input[type=text], select {
+  width: 500px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  box-sizing: border-box;
+  position: fixed;
+  left:720px;
+}
+input[type=password], select {
+  width: 500px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  box-sizing: border-box;
+  position: fixed;
+  left:720px;
+  top:520px;
 }
 
-label[for=LastName]{
-  position: absolute;left:280px;top:220px;
+.fnamel{
+  /* email label */
+  position: fixed;
+  width: 810px;
+  height: 53px;
+  left: 370px;
+  top: 320px;
+
   font-family: 'Inter';
   font-style: normal;
-  font-weight: 40;
+  font-weight: 400;
   font-size: 20px;
   line-height: 24px;
   text-align: center;
 
   color: #000000;
-}
-label[for=FirstName]{
-  position: absolute;left:280px;top:120px;
+  }
+
+  .lnamel{
+    /* email label */
+    position: fixed;
+    width: 810px;
+    height: 53px;
+    left: 370px;
+    top: 400px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #000000;
+    }
+
+.emaill{
+/* email label */
+position: fixed;
+width: 810px;
+height: 53px;
+left: 350px;
+top: 480px;
+
 font-family: 'Inter';
-  font-style: normal;
-  font-weight: 40;
-  font-size: 20px;
-  line-height: 24px;
-  text-align: center;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
 
-  color: #000000;
+color: #000000;
 }
-label[for=Email]{
-  position: absolute;left:300px;top:320px;
+
+.passwordl{
+/* password label */
+position: fixed;
+width: 810px;
+height: 53px;
+left: 370px;
+top: 560px;
+
 font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #000000;
+}
+
+.rpasswordl{
+  /* password label */
+  position: fixed;
+  width: 810px;
+  height: 53px;
+  left: 405px;
+  top: 640px;
+
+  font-family: 'Inter';
   font-style: normal;
-  font-weight: 40;
+  font-weight: 400;
   font-size: 20px;
   line-height: 24px;
   text-align: center;
 
   color: #000000;
+  }
+
+
+.checkboxpos{
+  position: fixed;
+  left: 715px;
+  top: 793px;
 }
-label[for=SetPassword]{
-  position: absolute;left:280px;top:420px;
+
+.checkboxtxtpos{
+  position: fixed;
+width: 810px;
+height: 53px;
+left: 480px;
+top: 790px;
+
 font-family: 'Inter';
-  font-style: normal;
-  font-weight: 40;
-  font-size: 20px;
-  line-height: 24px;
-  text-align: center;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
 
-  color: #000000;
-}
-.img{
-  position: absolute;
-  width: 275px;
-  height: 150px;
-  left: 50px;
-  top: -10px;
-}
+color: #000000;
 }
