@@ -126,7 +126,7 @@ flex-grow: 0;
 
 }
 
-button:hover{
+.button1:hover{
   /* Property 2=otlined */
 
 box-sizing: border-box;
@@ -141,15 +141,83 @@ gap: 10px;
 position: absolute;
 width: 270px;
 height: 46px;
-left: 20px;
-top: 81px;
+left: 830px;
+top: 650px;
+
 border: 2px solid #147839;
 border-radius: 6px;
 background: #ffffff;
 /* Button */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+color: #147839;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
 
+}
+.button2:hover{
+  /* Property 2=otlined */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+position: absolute;
 width: 270px;
 height: 46px;
+left: 830px;
+ top: 720px;
+
+border: 2px solid #147839;
+border-radius: 6px;
+background: #ffffff;
+/* Button */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+color: #147839;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.button3:hover{
+  /* Property 2=otlined */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+position: absolute;
+width: 270px;
+height: 46px;
+left: 830px;
+top: 790px;
+
+border: 2px solid #147839;
+border-radius: 6px;
+background: #ffffff;
+/* Button */
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
