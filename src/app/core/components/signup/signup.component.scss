@@ -4,14 +4,15 @@
   /* Rectangle 2 */
   form{
   position: absolute;
-  width: 800px;
+  width: 700px;
   height: 643px;
-  left: 350px;
+  left: 450px;
   top: 50px;
   background: #FFFFFF;
   }
 
   h4{
+    right:-40px;
     /* Login */
   position: absolute;
   width: 810px;
@@ -33,7 +34,7 @@ top:-20px;
   position: absolute;
   width: 801px;
   height: 83px;
-
+  right:-70px;
   top: 45px;
 
   font-family: 'Inter';
@@ -48,9 +49,7 @@ top:-20px;
 
 
   button{
-    /* Property 1=Shadow */
 
-  /* Auto layout */
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -61,8 +60,8 @@ top:-20px;
   position: absolute;
   width: 270px;
   height: 40px;
-  left: 20px;
-  top: 25px;
+
+  right:-20px;
 
   background: #147839;
   box-shadow: 0px 4px 8px rgba(20, 120, 57, 0.1);
@@ -103,8 +102,8 @@ top:-20px;
   position: absolute;
   width: 270px;
   height: 40px;
-  left: 20px;
-  top: 25px;
+
+
 
   border: 2px solid #147839;
   border-radius: 6px;
@@ -132,7 +131,8 @@ top:-20px;
   #FirstName{
     width: 500px;
     top:150px;
-    position: absolute;left:150px;
+    position: absolute;
+    left:100px;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -143,7 +143,7 @@ top:-20px;
   }
   #LastName{
     width: 500px;
-    position: absolute;left:150px;
+    position: absolute;left:100px;
     padding: 12px 20px;
     margin: 8px 0;
     top:250px;
@@ -156,7 +156,7 @@ top:-20px;
   }
   #Email{
     width: 500px;
-    position: absolute;left:150px;
+    position: absolute;left:100px;
     padding: 12px 20px;
     margin: 8px 0;
     top:350px;
@@ -166,7 +166,7 @@ top:-20px;
     box-sizing: border-box;
   }
   #SetPassword{
-    position: absolute;left:150px;
+    position: absolute;left:100px;
     width: 500px;
     padding: 12px 20px;
     margin: 8px 0;
@@ -190,15 +190,15 @@ top:150px;
 
 
 #login{
-  left: 280px;
+  left: 200px;
     top: 520px;
 }
 #signup{
-  left: 280px;
+  left: 200px;
   top: 590px;
 }
 label[for=LastName]{
-  position: absolute;left:350px;top:220px;
+  position: absolute;left:280px;top:220px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 40;
@@ -209,7 +209,7 @@ label[for=LastName]{
   color: #000000;
 }
 label[for=FirstName]{
-  position: absolute;left:350px;top:120px;
+  position: absolute;left:280px;top:120px;
 font-family: 'Inter';
   font-style: normal;
   font-weight: 40;
@@ -220,7 +220,7 @@ font-family: 'Inter';
   color: #000000;
 }
 label[for=Email]{
-  position: absolute;left:350px;top:320px;
+  position: absolute;left:300px;top:320px;
 font-family: 'Inter';
   font-style: normal;
   font-weight: 40;
@@ -231,7 +231,7 @@ font-family: 'Inter';
   color: #000000;
 }
 label[for=SetPassword]{
-  position: absolute;left:350px;top:420px;
+  position: absolute;left:280px;top:420px;
 font-family: 'Inter';
   font-style: normal;
   font-weight: 40;
@@ -242,5 +242,4 @@ font-family: 'Inter';
   color: #000000;
 }
 
-form {border: 3px solid #f1f1f1;}
-  }
+}
