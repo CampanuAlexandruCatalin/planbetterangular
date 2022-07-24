@@ -1,78 +1,57 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Inter);
+
+.img1{
+  /* Logo */
+position: fixed;
+width: 77px;
+height: 56px;
+left: 0px;
+top: 13px;
+}
+
+h1{
+  /* PlanBetter langa logo */
+/* PlanBetter */
+
+position: fixed;
+width: 221px;
+height: 56px;
+left: 56px;
+top: 0px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+h2{
+  position: fixed;
+  width: 220px;
+  height: 870px;
+  left: 5px;
+  top: 69px;
+  background: #FFFFFF;
+}
 
 input[type=text], select {
   width: 500px;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #ccc;
+  border: 1px solid rgb(0, 0, 0);
   border-radius: 4px;
   box-sizing: border-box;
-}
-input[type=password], select {
-  width: 500px;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
+  position: fixed;
+  left:720px;
+  top:25px;
 }
 
-h3{
-  position: absolute;
-width: 710px;
-height: 180px;
-left: 55px;
-top: 5px;
-background: #147839;
-}
-img{
-  /* logopng */
-
-position: absolute;
-width: 77px;
-height: 56px;
-left: 0px;
-top: 0px;
-
-
-
-}
-h1{/* PlanBetter */
-
-  position: absolute;
-  width: 221px;
-  height: 56px;
-  left: calc(50% - 221px/2 - 772.5px);
-  top: calc(50% - 56px/2 - 508px);
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 48px;
-  text-align: center;
-
-  color: #FFFFFF;
-
-  }
-h2{/* Admin sidebar menu */
-
-  /* Auto layout */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0px;
-  gap: 6px;
-
-  position: relative;
-  width: 221px;
-  height: 900px;
-
-  background: #FFFFFF;
-}
 button{
   /* Button2 */
 
@@ -123,4 +102,30 @@ button{
   flex: none;
   order: 0;
   flex-grow: 0;
+  }
+
+  .button1{
+    position: fixed;left: 50px; top: 350px;
+  }
+  .button2{
+    position: fixed;left: 50px; top: 400px;
+  }
+  .button3{
+    position: fixed;left: 50px; top: 450px;
+  }
+  .button4{
+    position: fixed;left: 50px; top: 500px;
+  }
+  .button5{
+    position: fixed;left: 50px; top: 550px;
+  }
+  .button6{
+    position: fixed;left: 50px; top: 600px;
+  }
+
+  .button7{
+    position: fixed;left: 50px; top: 650px;
+  }
+  .button8{
+    position: fixed;left: 50px; top: 700px;
   }

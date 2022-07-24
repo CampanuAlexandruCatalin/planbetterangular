@@ -1,183 +1,57 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Inter);
+
+.img1{
+  /* Logo */
+position: fixed;
+width: 77px;
+height: 56px;
+left: 0px;
+top: 13px;
+}
+
+h1{
+  /* PlanBetter langa logo */
+/* PlanBetter */
+
+position: fixed;
+width: 221px;
+height: 56px;
+left: 56px;
+top: 0px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+h2{
+  position: fixed;
+  width: 220px;
+  height: 870px;
+  left: 5px;
+  top: 69px;
+  background: #FFFFFF;
+}
 
 input[type=text], select {
   width: 500px;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #ccc;
+  border: 1px solid rgb(0, 0, 0);
   border-radius: 4px;
   box-sizing: border-box;
-}
-input[type=password], select {
-  width: 500px;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
+  position: fixed;
+  left:720px;
+  top:25px;
 }
 
-:root {
-  --numDays: 5;
-  --numHours: 10;
-  --timeHeight: 60px;
-  --calBgColor: #fff1f8;
-  --eventBorderColor: #f2d3d8;
-  --eventColor1: #ffd6d1;
-  --eventColor2: #fafaa3;
-  --eventColor3: #e2f8ff;
-  --eventColor4: #d1ffe6;
-}
-
-.calendar {
-  display: grid;
-  gap: 10px;
-  grid-template-columns: auto 1fr;
-  margin: 2rem;
-}
-
-.timeline {
-  display: grid;
-  grid-template-rows: repeat(var(--numHours), var(--timeHeight));
-}
-
-.days {
-  display: grid;
-  grid-column: 2;
-  gap: 5px;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-}
-
-.events {
-  display: grid;
-  grid-template-rows: repeat(var(--numHours), var(--timeHeight));
-  border-radius: 5px;
-  background: var(--calBgColor);
-}
-
-// Place on Timeline
-.start-10 {
-  grid-row-start: 2;
-}
-
-.start-12 {
-  grid-row-start: 4;
-}
-
-.start-1 {
-  grid-row-start: 5;
-}
-
-.start-2 {
-  grid-row-start: 6;
-}
-
-.end-12 {
-  grid-row-end: 4;
-}
-
-.end-1 {
-  grid-row-end: 5;
-}
-
-.end-3 {
-  grid-row-end: 7;
-}
-
-.end-4 {
-  grid-row-end: 8;
-}
-
-.end-5 {
-  grid-row-end: 9;
-}
-
-// Event
-
-.title {
-  font-weight: 600;
-  margin-bottom: 0.25rem;
-}
-
-.event {
-  border: 1px solid var(--eventBorderColor);
-  border-radius: 5px;
-  padding: 0.5rem;
-  margin: 0 0.5rem;
-  background: white;
-}
-
-.space,
-.date {
-  height: 60px
-}
-
-// Global / Etc
-
-body {
-  font-family: system-ui, sans-serif;
-}
-
-.corp-fi {
-  background: var(--eventColor1);
-}
-
-.ent-law {
-  background: var(--eventColor2);
-}
-
-.writing {
-  background: var(--eventColor3);
-}
-
-.securities {
-  background: var(--eventColor4);
-}
-
-.date {
-  display: flex;
-  gap: 1em;
-}
-
-.date-num {
-  font-size: 3rem;
-  font-weight: 600;
-  display: inline;
-}
-
-.date-day {
-  display: inline;
-  font-size: 3rem;
-  font-weight: 100;
-}
-
-h3{
-  position: absolute;
-width: 710px;
-height: 180px;
-left: 55px;
-top: 5px;
-background: #147839;
-}
-
-h2{/* Admin sidebar menu */
-
-  /* Auto layout */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0px;
-  gap: 6px;
-
-  position: relative;
-  width: 221px;
-  height: 900px;
-
-  background: #FFFFFF;
-}
 button{
   /* Button2 */
 
@@ -228,4 +102,30 @@ button{
   flex: none;
   order: 0;
   flex-grow: 0;
+  }
+
+  .button1{
+    position: fixed;left: 50px; top: 350px;
+  }
+  .button2{
+    position: fixed;left: 50px; top: 400px;
+  }
+  .button3{
+    position: fixed;left: 50px; top: 450px;
+  }
+  .button4{
+    position: fixed;left: 50px; top: 500px;
+  }
+  .button5{
+    position: fixed;left: 50px; top: 550px;
+  }
+  .button6{
+    position: fixed;left: 50px; top: 600px;
+  }
+
+  .button7{
+    position: fixed;left: 50px; top: 650px;
+  }
+  .button8{
+    position: fixed;left: 50px; top: 700px;
   }
