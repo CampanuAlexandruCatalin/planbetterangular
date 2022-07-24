@@ -10,7 +10,13 @@
   top: 50px;
   background: #FFFFFF;
   }
-
+  ::placeholder{
+    font-family: 'Inter';
+  font-style: normal;
+  font-weight: 40;
+    font-size: 15px;
+    color: #000000;
+  }
   h4{
     right:-40px;
 
@@ -179,7 +185,7 @@ top:-20px;
 
   hr{
 position: absolute;
-top:250px;
+top:200px;
     height:2px;
     width:1535px;
 
