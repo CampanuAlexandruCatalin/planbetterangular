@@ -2,31 +2,22 @@
 .signup {
 
   /* Rectangle 2 */
-  h2{
+  form{
   position: absolute;
-  width: 810px;
-  height: 770px;
-  left: 555px;
-  top: 164px;
+  width: 800px;
+  height: 643px;
+  left: 350px;
+  top: 50px;
   background: #FFFFFF;
   }
 
-  h1{
-  position: absolute;
-  width: 1921.5px;
-  height: 0px;
-  left: 0px;
-  top: 344.5px;
-  border: 1px solid #FFFFFF;
-  }
-
-  h3{
+  h4{
     /* Login */
   position: absolute;
   width: 810px;
   height: 133px;
-  left: 556px;
-  top: 164px;
+
+top:-20px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -40,14 +31,14 @@
     /* Welcome back. Login with your data that you entered during your registration. */
 
   position: absolute;
-  width: 810px;
+  width: 801px;
   height: 83px;
-  left: 552px;
-  top: 300px;
+
+  top: 45px;
 
   font-family: 'Inter';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 40;
   font-size: 20px;
   line-height: 24px;
   text-align: center;
@@ -55,24 +46,6 @@
   color: #000000;
   }
 
-  h1{
-    /* Keep me logged in */
-
-  position: absolute;
-  width: 141px;
-  height: 22px;
-  left: 721px;
-  top: 585px;
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  text-align: center;
-
-  color: #000000;
-  }
 
   button{
     /* Property 1=Shadow */
@@ -87,7 +60,7 @@
 
   position: absolute;
   width: 270px;
-  height: 46px;
+  height: 40px;
   left: 20px;
   top: 25px;
 
@@ -96,10 +69,6 @@
   border-radius: 6px;
 
 
-  /* Button */
-
-  width: 270px;
-  height: 46px;
 
   font-family: 'Roboto';
   font-style: normal;
@@ -133,18 +102,15 @@
 
   position: absolute;
   width: 270px;
-  height: 46px;
+  height: 40px;
   left: 20px;
-  top: 81px;
+  top: 25px;
 
   border: 2px solid #147839;
   border-radius: 6px;
   background: #ffffff;
 
   /* Button */
-
-  width: 270px;
-  height: 46px;
 
   font-family: 'Roboto';
   font-style: normal;
@@ -162,8 +128,11 @@
   flex-grow: 0;
 
   }
+
   #FirstName{
     width: 500px;
+    top:150px;
+    position: absolute;left:150px;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -174,8 +143,10 @@
   }
   #LastName{
     width: 500px;
+    position: absolute;left:150px;
     padding: 12px 20px;
     margin: 8px 0;
+    top:250px;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -185,21 +156,91 @@
   }
   #Email{
     width: 500px;
+    position: absolute;left:150px;
     padding: 12px 20px;
     margin: 8px 0;
+    top:350px;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
   }
   #SetPassword{
+    position: absolute;left:150px;
     width: 500px;
     padding: 12px 20px;
     margin: 8px 0;
+    top:450px;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+}
+
+  hr{
+position: absolute;
+top:150px;
+    height:2px;
+    width:1535px;
+
+    border-width:0;
+    color:rgb(255, 255, 255);
+    background-color:rgb(255, 255, 255);
   }
 
+
+#login{
+  left: 280px;
+    top: 520px;
+}
+#signup{
+  left: 280px;
+  top: 590px;
+}
+label[for=LastName]{
+  position: absolute;left:350px;top:220px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 40;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #000000;
+}
+label[for=FirstName]{
+  position: absolute;left:350px;top:120px;
+font-family: 'Inter';
+  font-style: normal;
+  font-weight: 40;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #000000;
+}
+label[for=Email]{
+  position: absolute;left:350px;top:320px;
+font-family: 'Inter';
+  font-style: normal;
+  font-weight: 40;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #000000;
+}
+label[for=SetPassword]{
+  position: absolute;left:350px;top:420px;
+font-family: 'Inter';
+  font-style: normal;
+  font-weight: 40;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #000000;
+}
+
+form {border: 3px solid #f1f1f1;}
   }
