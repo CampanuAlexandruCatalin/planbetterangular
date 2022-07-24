@@ -13,4 +13,8 @@ export class AdmincalendarComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  dataaleasa:any;
+  fetchDateSelected(){
+    console.log("data aleasa e:"+this.dataaleasa);
+  }
 }
