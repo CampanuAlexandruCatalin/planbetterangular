@@ -15,6 +15,7 @@ import { StudentdayComponent } from "./components/studentday/studentday.componen
 import { StudenttimerComponent } from "./components/studenttimer/studenttimer.component";
 import { HttpClientModule } from '@angular/common/http';
 
+
 const components= [AdmincalendarComponent,AdmindayComponent,CheckemailComponent,ForgotpasswordComponent,LoginComponent,PageNotFoundComponent,SetnewpasswordComponent,SignupComponent,StudentcalendarComponent,StudentdayComponent,StudenttimerComponent];
 
 @NgModule({
