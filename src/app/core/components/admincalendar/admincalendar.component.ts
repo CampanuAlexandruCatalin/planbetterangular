@@ -8,7 +8,12 @@ import { Router } from '@angular/router';
 })
 export class AdmincalendarComponent implements OnInit {
 
-  constructor(public router: Router) { }
+  date:Date | undefined;
+
+  constructor(public router: Router) {
+    setInterval(() => {
+    this.date = new Date()
+  }, 1000)}
 
   ngOnInit(): void {
   }
