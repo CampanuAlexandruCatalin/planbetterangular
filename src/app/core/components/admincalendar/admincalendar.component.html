@@ -20,7 +20,7 @@
 <mat-card class="demo-inline-calendar-card">
   <mat-calendar [(selected)]="selected"></mat-calendar>
 </mat-card>
-<h4>Selected date: {{selected}}</h4>
+<h4>Selected date: {{selected|date :'EEEE, MMMM d, y'}}</h4>
 <h6>
 {{dateTime|date:'HH:mm:ss'}}
 <br>
