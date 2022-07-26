@@ -1,4 +1,4 @@
-import { CommonModule } from "@angular/common";
+import { CommonModule, DatePipe, DATE_PIPE_DEFAULT_TIMEZONE } from "@angular/common";
 import { NgModule } from "@angular/core";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { RouterModule } from "@angular/router";
@@ -14,7 +14,6 @@ import { StudentcalendarComponent } from "./components/studentcalendar/studentca
 import { StudentdayComponent } from "./components/studentday/studentday.component";
 import { StudenttimerComponent } from "./components/studenttimer/studenttimer.component";
 import { HttpClientModule } from '@angular/common/http';
-
 
 const components= [AdmincalendarComponent,AdmindayComponent,CheckemailComponent,ForgotpasswordComponent,LoginComponent,PageNotFoundComponent,SetnewpasswordComponent,SignupComponent,StudentcalendarComponent,StudentdayComponent,StudenttimerComponent];
 

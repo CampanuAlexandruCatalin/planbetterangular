@@ -168,9 +168,19 @@ button{
   }
   iframe{
     position: fixed;
-    left: 1605px;
+    left: 1705px;
     top: 35px;
   }
-  .demo-inline-calendar-card {
-    width: 300px;
-  }
+span{
+  position: fixed;
+  left: 1605px;
+  top: 70px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #000000;
+}
