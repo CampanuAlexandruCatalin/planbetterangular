@@ -1,4 +1,4 @@
-import { CommonModule, DatePipe, DATE_PIPE_DEFAULT_TIMEZONE } from "@angular/common";
+import { CommonModule } from "@angular/common";
 import { NgModule } from "@angular/core";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { RouterModule } from "@angular/router";
@@ -14,12 +14,18 @@ import { StudentcalendarComponent } from "./components/studentcalendar/studentca
 import { StudentdayComponent } from "./components/studentday/studentday.component";
 import { StudenttimerComponent } from "./components/studenttimer/studenttimer.component";
 import { HttpClientModule } from '@angular/common/http';
-
+import { MatSliderModule } from '@angular/material/slider';
+import {Component} from '@angular/core';
+import {MatCardModule} from '@angular/material/card';
+import{MatDatepickerModule} from '@angular/material/datepicker';
+import { MatNativeDateModule } from "@angular/material/core";
+import {MatFormFieldModule} from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
 const components= [AdmincalendarComponent,AdmindayComponent,CheckemailComponent,ForgotpasswordComponent,LoginComponent,PageNotFoundComponent,SetnewpasswordComponent,SignupComponent,StudentcalendarComponent,StudentdayComponent,StudenttimerComponent];
 
 @NgModule({
   declarations: components,
   exports: components,
-  imports: [CommonModule, HttpClientModule, ReactiveFormsModule, FormsModule, RouterModule],
+  imports: [CommonModule, HttpClientModule, ReactiveFormsModule, FormsModule, RouterModule,MatSliderModule,MatCardModule,MatDatepickerModule,MatNativeDateModule,MatFormFieldModule,MatInputModule]
 })
 export class CoreModule {}

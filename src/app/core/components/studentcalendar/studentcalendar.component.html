@@ -12,14 +12,11 @@
 </h2>
 
 <input id="search" type="text" name="search">
-<input id="search" type="text" name="search">
-<h5>Alege data si ora:</h5>
-<input type="date" >
-<button  class="button9" >Alege</button>
 
-<input type="time" id="appt" name="appt" min="09:00" max="18:00" required>
+<iframe src="https://free.timeanddate.com/clock/i8fhhzhy/n2209/tlro32/fs22/fcfff/tc147839/pc147839/ahr/tt0/td2/tb4" frameborder="0" width="291" height="54"></iframe>
 
-
-<span >
-{{now}}
-</span>
+<div class="calendar">
+  <mat-card class="demo-inline-calendar-card">
+    <mat-calendar [(selected)]="selected"></mat-calendar>
+  </mat-card>
+  <h4>Selected date: {{selected}}</h4>
