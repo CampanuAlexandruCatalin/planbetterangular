@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { timer } from 'rxjs';
 
 @Component({
   selector: 'app-studentday',
@@ -7,10 +8,14 @@ import { Router } from '@angular/router';
   styleUrls: ['./studentday.component.scss']
 })
 export class StudentdayComponent implements OnInit {
-
-  constructor(public router: Router) { }
-
-  ngOnInit(): void {
+  selected: Date | null | undefined;
+  dateTime: Date| null | undefined;
+  constructor(public router: Router) {
   }
-
+  ngOnInit(): void {
+    this.dateTime=new Date();
+    timer(0,1000).subscribe(()=>{
+      this.dateTime=new Date()
+    })
+  }
 }

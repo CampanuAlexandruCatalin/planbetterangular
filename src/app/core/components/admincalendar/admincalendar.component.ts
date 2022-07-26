@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { MatDatepickerInputEvent } from '@angular/material/datepicker';
 import { Router } from '@angular/router';
+import { timer } from 'rxjs';
 import { CoreModule } from '../../core.module';
 
 @Component({
@@ -12,10 +13,13 @@ import { CoreModule } from '../../core.module';
 export class AdmincalendarComponent implements OnInit {
 
   selected: Date | null | undefined;
-
+  dateTime: Date| null | undefined;
   constructor(public router: Router) {
   }
-
   ngOnInit(): void {
+    this.dateTime=new Date();
+    timer(0,1000).subscribe(()=>{
+      this.dateTime=new Date()
+    })
   }
 }
