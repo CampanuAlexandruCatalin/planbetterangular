@@ -1,6 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 @import url(https://fonts.googleapis.com/css?family=Inter);
 
+
+.demo-inline-calendar-card {
+  position: fixed;
+  width: 300px;
+  left: 250px;
+  top: 130px;
+}
 .img1{
   /* Logo */
 position: fixed;
@@ -99,8 +106,8 @@ h4{
 position: fixed;
 width: 810px;
 height: 53px;
-left: 1650px;
-top: 10px;
+left: 260px;
+top: 550px;
 
 font-family: 'Inter';
 font-style: normal;
