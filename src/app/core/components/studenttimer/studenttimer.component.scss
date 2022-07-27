@@ -25,6 +25,7 @@ font-size: 20px;
 line-height: 24px;
 color: #ffffff;
 }
+
 h1{
   /* PlanBetter langa logo */
 /* PlanBetter */
@@ -148,4 +149,24 @@ button{
   .button6{
     position: fixed;left: 50px; top: 650px;
   }
+  .button7{
+    position: fixed;left: 800px; top: 450px;
+  }
+  .button8{
+    position: fixed;left: 1050px; top: 450px;
+  }
 
+
+
+.sw-container{
+  color: #ffffff;
+  text-align: center;
+  width: 300px;
+  font-size: 500%;
+
+}
+
+.stopwatch{
+  font-size:35px;
+  margin-bottom: 15px;
+}

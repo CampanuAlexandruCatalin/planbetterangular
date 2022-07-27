@@ -13,11 +13,24 @@
 
 <input id="search" type="text" name="search">
 
-<iframe class="timer"width="475" height="250" src="https://vclock.com/embed/timer/#countdown=00:25:00&enabled=0&seconds=1500&onzero=2&theme=1&ampm=1&sound=classic" frameborder="0" allowfullscreen></iframe>
-
-
 <h6>
   {{dateTime|date:'HH:mm:ss'}}
   <br>
   {{dateTime|date :'EEEE, MMMM d, y'}}
-  </h6>
+</h6>
+
+
+
+
+<div class="sw-container">
+  <div class="timer">
+    <span>{{hr}} : </span>
+    <span>{{min}} : </span>
+    <span>{{sec}} : </span>
+    <span>{{ms}}</span>
+  </div>
+  <div class="button-container">
+    <button class="button7" (click)="start()" >Start</button>
+    <button class="button8" (click)="reset()">Reset</button>
+  </div>
+</div>
