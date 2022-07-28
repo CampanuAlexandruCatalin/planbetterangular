@@ -10,6 +10,10 @@ import{MatDatepickerModule} from '@angular/material/datepicker';
 import { MatNativeDateModule } from "@angular/material/core";
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
+import { DayService, WeekService, WorkWeekService, MonthService, AgendaService,ResizeService, DragAndDropService} from '@syncfusion/ej2-angular-schedule';
+import { Component, ViewChild } from '@angular/core';
+
+import { extend } from '@syncfusion/ej2-base';
 @NgModule({
   declarations: [
     AppComponent
@@ -23,7 +27,7 @@ import { MatInputModule } from '@angular/material/input';
     MatNativeDateModule ,
     MatFormFieldModule,MatInputModule
   ],
-  providers: [],
+  providers: [DayService, ResizeService, DragAndDropService],
   bootstrap: [AppComponent],
 })
 export class AppModule { }
