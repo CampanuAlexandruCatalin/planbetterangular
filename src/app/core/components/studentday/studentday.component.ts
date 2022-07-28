@@ -9,7 +9,7 @@ import { timer } from 'rxjs';
   styleUrls: ['./studentday.component.scss']
 })
 export class StudentdayComponent implements OnInit {
-  selected: Date | null | undefined;
+
   dateTime: Date| null | undefined;
   @ViewChild('scheduleObj') public scheduleObj: ScheduleComponent | undefined ;
 
