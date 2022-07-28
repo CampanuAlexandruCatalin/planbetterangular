@@ -43,9 +43,6 @@ import { DatePickerAllModule, TimePickerAllModule, DateTimePickerAllModule } fro
 import { NumericTextBoxAllModule, TextBoxAllModule } from '@syncfusion/ej2-angular-inputs';
 
 import { ScheduleAllModule, RecurrenceEditorAllModule } from '@syncfusion/ej2-angular-schedule';
-import {  ViewChild } from '@angular/core';
-
-import { extend } from '@syncfusion/ej2-base';
 
 const components= [AdmincalendarComponent,AdmindayComponent,CheckemailComponent,ForgotpasswordComponent,LoginComponent,PageNotFoundComponent,SetnewpasswordComponent,SignupComponent,StudentcalendarComponent,StudentdayComponent,StudenttimerComponent];
 
