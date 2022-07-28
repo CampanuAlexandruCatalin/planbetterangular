@@ -24,13 +24,21 @@
 <h5>Description:<br>We recommend using Pomodoro Technique. It uses a timer to break work into intervals, typically 25 minutes in length, separated by short breaks.</h5>
 <div class="sw-container">
   <div class="timer">
-    <span>{{hr}} : </span>
     <span>{{min}} : </span>
-    <span>{{sec}} : </span>
-    <span>{{ms}}</span>
+    <span>{{sec}}</span>
+    <h4>{{mesaj}}</h4>
   </div>
   <div class="button-container">
     <button class="button7" (click)="start()" >Start</button>
     <button class="button8" (click)="reset()">Reset</button>
   </div>
+
+
+  <div class="timerb">
+    <span>{{minb}} : </span>
+    <span>{{secb}}</span>
+    <h3>{{mesajb}}</h3>
+  </div>
+  <button class="button9" (click)="startb()" >Start</button>
+    <button class="button10" (click)="resetb()">Reset</button>
 </div>

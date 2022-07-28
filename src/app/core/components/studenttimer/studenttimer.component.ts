@@ -11,12 +11,19 @@ export class StudenttimerComponent implements OnInit {
   selected: Date | null | undefined;
   dateTime: Date| null | undefined;
 
-  ms:any='0'+0;
-  sec:any='0'+0;
-  min:any='0'+0;
-  hr:any='0'+0;
+  sec:any=0+'0';
+  min:any=25;
+
+  secb:any=0+'0';
+  minb:any=5;
+  mesaj:string|undefined;
+  mesajb:string|undefined;
+
   starttimer:any;
   runing=false;
+
+  starttimerb:any;
+  runingb=false;
 
   constructor(public router: Router) {
   }
@@ -25,30 +32,22 @@ export class StudenttimerComponent implements OnInit {
     if(!this.runing){
       this.runing=true;
       this.starttimer=setInterval(()=>{
-      this.ms++;
-      this.ms=this.ms<10?'0'+this.ms:this.ms;
-
-      if(this.ms===100)
+      if(this.min>0)
       {
-        this.sec++;
-        this.sec=this.sec<10?'0'+this.sec:this.sec;
-        this.ms='0'+0;
-      }
-
-      if(this.sec==60)
+      if(this.sec==0)
       {
-        this.min++;
-        this.min=this.min<10?'0'+this.min:this.min;
-        this.sec='0'+0;
+        this.sec=60;
+        this.min--;
       }
-
-      if(this.min==60)
+      this.sec--;
+      if(this.min==0)
       {
-        this.hr++;
-        this.hr=this.hr<10?'0'+this.hr:this.hr;
-        this.min='0'+0;
-      }
-    },10);
+        clearInterval(this.starttimer);
+        this.runing=false;
+        this.min=this.sec=0;
+        this.mesaj="Time for a break!";
+      }}
+    },1000);
     }
     else{
       this.stop();
@@ -62,8 +61,46 @@ export class StudenttimerComponent implements OnInit {
   reset():void{
     clearInterval(this.starttimer);
     this.runing=false;
-    this.hr=this.min=this.sec=this.ms='0'+0;
+    this.min=25;
+    this.sec='0'+0;
+    this.mesaj='';
   }
+
+  resetb():void{
+    clearInterval(this.starttimerb);
+    this.runing=false;
+    this.minb=5;
+    this.secb='0'+0;
+    this.mesajb='';
+  }
+
+  startb():void{
+    if(!this.runingb){
+      this.runingb=true;
+      this.starttimerb=setInterval(()=>{
+      if(this.minb>0)
+      {
+      if(this.secb==0)
+      {
+        this.secb=60;
+        this.minb--;
+      }
+      this.secb--;
+      if(this.minb==0)
+      {
+        clearInterval(this.starttimerb);
+        this.runingb=false;
+        this.minb=this.secb=0;
+        this.mesajb="Time to learn!";
+      }}
+    },1000);
+    }
+    else{
+      this.stop();
+    }
+  }
+
+
   ngOnInit(): void {
     this.dateTime=new Date();
     timer(0,1000).subscribe(()=>{

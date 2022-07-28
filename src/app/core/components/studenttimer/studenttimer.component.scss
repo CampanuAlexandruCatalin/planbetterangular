@@ -32,7 +32,7 @@ position: fixed;
 width: 810px;
 height: 53px;
 left: 670px;
-top: 230px;
+top: 130px;
 
 font-family: 'Inter';
 font-style: normal;
@@ -77,8 +77,14 @@ iframe{
 }
 .timer{
   position: fixed;
-  left: 755px;
-  top: 355px;
+  left: 895px;
+  top: 255px;
+}
+
+.timerb{
+  position: fixed;
+  left: 895px;
+  top: 555px;
 }
 
 input[type=text], select {
@@ -166,10 +172,16 @@ button{
     position: fixed;left: 50px; top: 650px;
   }
   .button7{
-    position: fixed;left: 800px; top: 450px;
+    position: fixed;left: 800px; top: 350px;
   }
   .button8{
-    position: fixed;left: 1050px; top: 450px;
+    position: fixed;left: 1050px; top: 350px;
+  }
+  .button9{
+    position: fixed;left: 800px; top: 650px;
+  }
+  .button10{
+    position: fixed;left: 1050px; top: 650px;
   }
 
 
@@ -186,3 +198,40 @@ button{
   font-size:35px;
   margin-bottom: 15px;
 }
+h4{
+  /* Welcome back. Login with your data that you entered during your registration. */
+
+position: fixed;
+width: 810px;
+height: 53px;
+left: 602px;
+top: 450px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 24px;
+text-align: center;
+
+color: #ffffff;
+}
+h3{
+  /* Welcome back. Login with your data that you entered during your registration. */
+
+position: fixed;
+width: 810px;
+height: 53px;
+left: 602px;
+top: 732px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 24px;
+text-align: center;
+
+color: #ffffff;
+}
+
