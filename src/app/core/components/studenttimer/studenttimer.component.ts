@@ -93,7 +93,7 @@ export class StudenttimerComponent implements OnInit {
         this.minb=this.secb=0;
         this.mesajb="Time to learn!";
       }}
-    },100);
+    },1000);
     }
     else{
       this.stop();
