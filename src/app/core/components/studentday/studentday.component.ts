@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { EventSettingsModel } from '@syncfusion/ej2-angular-schedule';
 import { timer } from 'rxjs';
 
 @Component({
@@ -10,6 +11,7 @@ import { timer } from 'rxjs';
 export class StudentdayComponent implements OnInit {
   selected: Date | null | undefined;
   dateTime: Date| null | undefined;
+
   constructor(public router: Router) {
   }
   ngOnInit(): void {
@@ -17,5 +19,6 @@ export class StudentdayComponent implements OnInit {
     timer(0,1000).subscribe(()=>{
       this.dateTime=new Date()
     })
+
   }
 }

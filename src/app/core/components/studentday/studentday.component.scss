@@ -1,6 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 @import url(https://fonts.googleapis.com/css?family=Inter);
-
+@import '@syncfusion/ej2-base/styles/material.css';
+@import '@syncfusion/ej2-buttons/styles/material.css';
+@import '@syncfusion/ej2-calendars/styles/material.css';
+@import '@syncfusion/ej2-dropdowns/styles/material.css';
+@import '@syncfusion/ej2-inputs/styles/material.css';
+@import '@syncfusion/ej2-lists/styles/material.css';
+@import '@syncfusion/ej2-popups/styles/material.css';
+@import '@syncfusion/ej2-navigations/styles/material.css';
+@import '@syncfusion/ej2-angular-schedule/styles/material.css';
 .img1{
   /* Logo */
 position: fixed;
@@ -9,7 +17,7 @@ height: 56px;
 left: 0px;
 top: 13px;
 }
-h6{
+h5{
   /* Welcome back. Login with your data that you entered during your registration. */
 
 position: fixed;
@@ -25,6 +33,7 @@ font-size: 20px;
 line-height: 24px;
 color: #ffffff;
 }
+
 h1{
   /* PlanBetter langa logo */
 /* PlanBetter */

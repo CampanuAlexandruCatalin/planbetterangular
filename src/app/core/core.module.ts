@@ -21,11 +21,14 @@ import{MatDatepickerModule} from '@angular/material/datepicker';
 import { MatNativeDateModule } from "@angular/material/core";
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
+import { DayService, WeekService, WorkWeekService, MonthService, AgendaService } from '@syncfusion/ej2-angular-schedule';
+import { BrowserModule } from '@angular/platform-browser';
+import { ScheduleModule } from '@syncfusion/ej2-angular-schedule';
 const components= [AdmincalendarComponent,AdmindayComponent,CheckemailComponent,ForgotpasswordComponent,LoginComponent,PageNotFoundComponent,SetnewpasswordComponent,SignupComponent,StudentcalendarComponent,StudentdayComponent,StudenttimerComponent];
 
 @NgModule({
   declarations: components,
   exports: components,
-  imports: [CommonModule, HttpClientModule, ReactiveFormsModule, FormsModule, RouterModule,MatSliderModule,MatCardModule,MatDatepickerModule,MatNativeDateModule,MatFormFieldModule,MatInputModule]
+  imports: [CommonModule, HttpClientModule, ReactiveFormsModule, FormsModule, RouterModule,MatSliderModule,MatCardModule,MatDatepickerModule,MatNativeDateModule,MatFormFieldModule,MatInputModule,BrowserModule, ScheduleModule]
 })
 export class CoreModule {}
