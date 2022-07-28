@@ -11,7 +11,20 @@ import { timer } from 'rxjs';
 export class StudentdayComponent implements OnInit {
   selected: Date | null | undefined;
   dateTime: Date| null | undefined;
+  @ViewChild('scheduleObj') public scheduleObj: ScheduleComponent | undefined ;
 
+  public selectedDate: Date = new Date();
+
+
+  public datas: string[] = ['Day'];
+
+  public onEventRendered(args: EventRenderedArgs): void {
+    const categoryColor: string = args.data['CategoryColor'] as string;
+    if (!args.element || !categoryColor) {
+      return;
+    }
+
+  }
 
   constructor(public router: Router) {
   }
