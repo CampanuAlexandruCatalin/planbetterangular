@@ -13,6 +13,7 @@ import { StudentdayComponent } from './core/components/studentday/studentday.com
 import { StudenttimerComponent } from './core/components/studenttimer/studenttimer.component';
 import { SuccesnewpasswordComponent } from './core/components/succesnewpassword/succesnewpassword.component';
 import { AdminGuard } from './shared/admin.guard';
+import { UsermanualComponent } from './core/components/usermanual/usermanual.component';
 
 const routes: Routes = [
   {
@@ -66,6 +67,11 @@ const routes: Routes = [
     path: 'studentcalendar',
     pathMatch: 'full',
     component:StudentcalendarComponent
+  },
+  {
+    path: 'usermanual',
+    pathMatch: 'full',
+    component:UsermanualComponent
   },
   {
     path: 'studentday',

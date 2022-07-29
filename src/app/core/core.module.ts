@@ -13,6 +13,7 @@ import { SignupComponent } from "./components/signup/signup.component";
 import { StudentcalendarComponent } from "./components/studentcalendar/studentcalendar.component";
 import { StudentdayComponent } from "./components/studentday/studentday.component";
 import { StudenttimerComponent } from "./components/studenttimer/studenttimer.component";
+import { UsermanualComponent } from "./components/usermanual/usermanual.component";
 import { HttpClientModule } from '@angular/common/http';
 import { MatSliderModule } from '@angular/material/slider';
 import {Component} from '@angular/core';
@@ -44,7 +45,7 @@ import { NumericTextBoxAllModule, TextBoxAllModule } from '@syncfusion/ej2-angul
 
 import { ScheduleAllModule, RecurrenceEditorAllModule } from '@syncfusion/ej2-angular-schedule';
 
-const components= [AdmincalendarComponent,AdmindayComponent,CheckemailComponent,ForgotpasswordComponent,LoginComponent,PageNotFoundComponent,SetnewpasswordComponent,SignupComponent,StudentcalendarComponent,StudentdayComponent,StudenttimerComponent];
+const components= [AdmincalendarComponent,UsermanualComponent,AdmindayComponent,CheckemailComponent,ForgotpasswordComponent,LoginComponent,PageNotFoundComponent,SetnewpasswordComponent,SignupComponent,StudentcalendarComponent,StudentdayComponent,StudenttimerComponent];
 
 @NgModule({
   declarations: components,

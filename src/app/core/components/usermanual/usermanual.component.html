@@ -1,0 +1,44 @@
+<h1>PlanBetter</h1>
+<img src="./assets/images/logo.svg" class="img1">
+<h2>
+
+  <button class="button1" >Notifications</button>
+  <button class="button2" >Questions</button>
+  <button class="button3" (click)="router.navigate(['/studenttimer']);">Timer</button>
+  <button class="button4" >Courses Summary</button>
+  <button class="button5" (click)="router.navigate(['/usermanual']);">Help</button>
+  <button class="button6" (click)="router.navigate(['/login']);">Sign Out</button>
+
+</h2>
+
+<input id="search" type="text" name="search">
+
+<h6>
+  {{dateTime|date:'HH:mm:ss'}}
+  <br>
+  {{dateTime|date :'EEEE, MMMM d, y'}}
+</h6>
+
+
+<h4>PlanBetter</h4>
+<h5>We have all the time in the world, until we don't! :)) if you think you have time for next exam...then think again :)) Hopefully you use our app. So maybe a calendar to help you structure your time better. A timer, to boost morale or lower it. All the good stuff.
+<br><br>
+  The administrator can:<br>
+
+  add, edit and delete exams (e.g. mandatory or optional,<br> for a subject studied in 2nd year, type of exam first/second/third attempt,  <br>written, partially, online for entire study year, for a specific student group);
+  <br> schedule sessions for exams and reminder timeline;<br>
+  approve questions for a specific exam (this can be part of the configuration of exam to need or not approval for questions);<br>
+  filter on subjects, type of exam, period of time;
+
+  <br><br>
+  Students can:<br>
+
+  select his/her exams;<br>
+  attend to a scheduled session;<br>
+  submit questions and comments for an exam session;<br>
+  have a view with student timeline:
+  for the current year;<br>
+  for a specific period of time
+  have options for filtering: per year, per subject ,per period of time;<br>
+  sort exams by years/subjects;<br>
+ </h5>

@@ -1,0 +1,236 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Inter);
+
+.img1{
+  /* Logo */
+position: fixed;
+width: 77px;
+height: 56px;
+left: 0px;
+top: 13px;
+}
+h6{
+  /* data ora */
+
+position: fixed;
+width: 810px;
+height: 53px;
+left: 1670px;
+top: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #ffffff;
+}
+h5{
+
+position: fixed;
+width: 810px;
+height: 53px;
+left: 370px;
+top: 230px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #ffffff;
+}
+
+h1{
+  /* PlanBetter langa logo */
+/* PlanBetter */
+
+position: fixed;
+width: 221px;
+height: 56px;
+left: 56px;
+top: 0px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+h2{
+  position: fixed;
+  width: 220px;
+  height: 870px;
+  left: 5px;
+  top: 69px;
+  background: #FFFFFF;
+}
+iframe{
+  position: fixed;
+  left: 1605px;
+  top: 35px;
+}
+.timer{
+  position: fixed;
+  left: 895px;
+  top: 255px;
+}
+
+.timerb{
+  position: fixed;
+  left: 895px;
+  top: 555px;
+}
+
+input[type=text], select {
+  width: 500px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  box-sizing: border-box;
+  position: fixed;
+  left:720px;
+  top:25px;
+}
+
+button{
+  /* Button2 */
+
+  box-sizing: border-box;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #147839;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+
+  position: absolute;
+  width: 125px;
+  height: 41px;
+  left: 897px;
+  top: 900px;
+
+  background: #FFFFFF;
+  border: 2px solid #147839;
+  border-radius: 6px;
+
+  }
+  button:hover{
+  /* Button */
+
+  width: 125px;
+  height: 41px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  background: #147839;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  }
+
+  .button1{
+    position: fixed;left: 50px; top: 400px;
+  }
+  .button2{
+    position: fixed;left: 50px; top: 450px;
+  }
+  .button3{
+    position: fixed;left: 50px; top: 500px;
+  }
+  .button4{
+    position: fixed;left: 50px; top: 550px;
+  }
+  .button5{
+    position: fixed;left: 50px; top: 600px;
+  }
+
+  .button6{
+    position: fixed;left: 50px; top: 650px;
+  }
+  .button7{
+    position: fixed;left: 800px; top: 350px;
+  }
+  .button8{
+    position: fixed;left: 1050px; top: 350px;
+  }
+  .button9{
+    position: fixed;left: 800px; top: 650px;
+  }
+  .button10{
+    position: fixed;left: 1050px; top: 650px;
+  }
+
+
+
+.sw-container{
+  color: #ffffff;
+  text-align: center;
+  width: 300px;
+  font-size: 500%;
+
+}
+
+.stopwatch{
+  font-size:35px;
+  margin-bottom: 15px;
+}
+h4{
+  /* Welcome back. Login with your data that you entered during your registration. */
+
+position: fixed;
+width: 810px;
+height: 53px;
+left: 602px;
+top: 150px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 24px;
+text-align: center;
+
+color: #ffffff;
+}
+h3{
+  /* Welcome back. Login with your data that you entered during your registration. */
+
+position: fixed;
+width: 810px;
+height: 53px;
+left: 602px;
+top: 732px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 24px;
+text-align: center;
+
+color: #ffffff;
+}
+
