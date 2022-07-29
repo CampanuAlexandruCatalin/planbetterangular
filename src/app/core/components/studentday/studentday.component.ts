@@ -1,7 +1,8 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, Input, OnInit, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
 import { EventRenderedArgs, EventSettingsModel, ScheduleComponent, View } from '@syncfusion/ej2-angular-schedule';
 import { timer } from 'rxjs';
+import { ExamModel } from 'src/app/shared/models';
 
 @Component({
   selector: 'app-studentday',
@@ -27,6 +28,7 @@ export class StudentdayComponent implements OnInit {
   }
 
   constructor(public router: Router) {
+
   }
   ngOnInit(): void {
     this.dateTime=new Date();

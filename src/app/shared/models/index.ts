@@ -1,2 +1,3 @@
-export * from './student.model';
-export * from './teacher.model';
+export * from './studentModel';
+export * from './teacherModel';
+export * from './examModel';
