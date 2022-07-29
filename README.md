@@ -13,5 +13,8 @@ https://drive.google.com/file/d/1OzjBKVPNmg6YACmcA7mlnOXCxmZ2l2aU/view?usp=shari
 Back-end
 https://github.com/CampanuAlexandruCatalin/PlanBetter
 
+Automated testing
+https://github.com/CampanuAlexandruCatalin/PlanBetterAutomatedTesting
+
 Summer Practice @AC Powered by Centric
 2022
