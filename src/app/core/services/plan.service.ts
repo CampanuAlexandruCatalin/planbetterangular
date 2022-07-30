@@ -1,7 +1,7 @@
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { ExamModel } from './models/userdata';
+import { Student } from './models/studentModel';
 
 @Injectable({
   providedIn: 'root'
@@ -10,11 +10,11 @@ export class PlanService {
 
   constructor(private httpClient: HttpClient) {}
 
-  getdata(): Observable<ExamModel> {
-    const url = 'https://localhost:65047';
+  loginfunction(): Observable<Student> {
+    const url = 'https://localhost:65047/api/Student';
     const options = {
       headers: new HttpHeaders({}),
     };
-    return this.httpClient.get<ExamModel>(url, options);
+    return this.httpClient.get<Student>(url, options);
   }
 }

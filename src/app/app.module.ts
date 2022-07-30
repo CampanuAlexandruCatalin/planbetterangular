@@ -12,7 +12,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { DayService, WeekService, WorkWeekService, MonthService, AgendaService,ResizeService, DragAndDropService} from '@syncfusion/ej2-angular-schedule';
 import { Component, ViewChild } from '@angular/core';
-
+import { HttpClientModule } from '@angular/common/http';
 import { extend } from '@syncfusion/ej2-base';
 @NgModule({
   declarations: [
@@ -25,7 +25,7 @@ import { extend } from '@syncfusion/ej2-base';
     MatCardModule,
     MatDatepickerModule,
     MatNativeDateModule ,
-    MatFormFieldModule,MatInputModule
+    MatFormFieldModule,MatInputModule,HttpClientModule
   ],
   providers: [DayService, ResizeService, DragAndDropService],
   bootstrap: [AppComponent],

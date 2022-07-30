@@ -18,8 +18,8 @@ import { UsermanualComponent } from './core/components/usermanual/usermanual.com
 const routes: Routes = [
   {
     path: '',
-    redirectTo: '/login',
     pathMatch: 'full',
+    component:LoginComponent
   },
   {
     path: 'login',
