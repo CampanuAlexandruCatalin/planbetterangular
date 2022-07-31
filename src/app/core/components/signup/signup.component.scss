@@ -28,9 +28,9 @@ h1{
   h2{
     /* Rectangle 2 */
   position: fixed;
-  width: 39.7%;
+  width: 45.5%;
   height: 86%;
-  left: 29%;
+  left: 27%;
   top: 90px;
   background: #FFFFFF;
   }
@@ -351,12 +351,7 @@ color: #000000;
   top:67%;
 }
 @media only screen and (max-width: 600px) {
-  .button1{
-     top: 700px;
-  }
-  .button2{
-    top: 770px;
-  }
+
   h2{
     /* Rectangle 2 */
 
@@ -454,6 +449,14 @@ left:40%;
   top: 80%;
 }
 .button2{
+  left: 25%;
+  top: 87%;
+}
+.button1:hover{
+  left: 25%;
+  top: 80%;
+}
+.button2:hover{
   left: 25%;
   top: 87%;
 }
