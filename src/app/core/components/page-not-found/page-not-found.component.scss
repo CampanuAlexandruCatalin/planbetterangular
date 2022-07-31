@@ -2,84 +2,152 @@
 @import url(https://fonts.googleapis.com/css?family=Inter);
 
 .img1{
-    /* Logo */
+  /* Logo */
   position: fixed;
-  width: 275px;
-  height: 200px;
-  left: 139px;
+  width: 12%;
+  height: 20%;
+  left:8% ;
   top: 0px;
 }
 .img2{
   /* Imagine eroare */
     position: fixed;
-    width: 922px;
-    height: 607px;
-    left: 499px;
-    top: 237px;
+    position: fixed;
+  width: 90%;
+  height: 60%;
+
+
+    top: 20%;
 }
 
 h1{
   /* PlanBetter langa logo */
   position: fixed;
-  width: 346px;
-  height: 75px;
-  left: 414px;
+  width: 16.9%;
+  height: 15%;
+  left: 22%;
   top: 0px;
 
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
-  font-size: 64px;
+  font-size: 50px;
   line-height: 77px;
   color: #FFFFFF;
   }
 
 
-button{
-/* Button2 */
-box-sizing: border-box;
+  button{
+    /* Property 1=Shadow */
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-color: #147839;
-/* Auto layout */
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 10px;
-gap: 10px;
-position: fixed;
-width: 125px;
-height: 51px;
-left: 897px;
-top: 900px;
-background: #FFFFFF;
-border: 2px solid #147839;
-border-radius: 6px;
-}
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+
+  position: absolute;
+  width: 13.4%;
+  height: 5%;
+
+  top: 85%;
+  left: 41%;
+  background: white;
+  box-shadow: 0px 4px 8px rgba(20, 120, 57, 0.1);
+  border-radius: 6px;
+
+
+  /* Button */
+
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #147839;
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  }
 
 button:hover{
-/* Button */
+ /* Property 1=Shadow */
 
-width: 125px;
-height: 51px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 21px;
-/* identical to box height */
-background: #147839;
-color: #ffffff;
-border: 2px solid #ffffff;
+  position: absolute;
+  width: 13.4%;
+  height: 5%;
+
+  top: 85%;
+  left: 41%;
+  background:white;
+  box-shadow: 0px 4px 8px rgba(20, 120, 57, 0.1);
+  border-radius: 6px;
 
 
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
+  /* Button */
+
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #147839;
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+}
+@media only screen and (max-width: 600px) {
+
+.img1{
+  top:-6%;
+  width: 26%;
+  left:40%;
+      }
+     .img2{
+      left:8%;
+     }
+      h1{
+        top: 7%;
+        font-size: 45px;
+        left:25%;
+      }
+      button{
+
+        width:60%;
+        left: 25%;
+        top: 73%;
+        background: white;
+        color:#147839;
+    }
+    button:hover{
+      width:60%;
+        left: 25%;
+        top: 73%;
+        background: white;
+        color:#147839;
+    }
 }
