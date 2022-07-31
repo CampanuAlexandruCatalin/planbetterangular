@@ -7,15 +7,20 @@
   <h4>Login</h4>
   <h5> Welcome back. Login with your data that you entered during your registration.</h5>
 
+    <form #form="ngForm" [formGroup]="loginDate" (ngSubmit)="LoginForm()">
+
     <label for="email" class="emaill">Email</label>
-    <input id="email" type="text" name="email">
+    <input id="email" type="text" formControlName="email">
 
     <label for="password" class="passwordl">Password</label>
-    <input id="password" type="password" name="password">
+    <input id="password" type="password" formControlName="password">
 
     <input type="checkbox" id="keep" name="keep" value="keeplogin"class="checkboxpos">
     <label for="keep" class="checkboxtxtpos"> Keep me logged in</label><br>
 
-    <button class="button1"(click)="router.navigate(['/login']);">Login</button>
+    <button class="button1" type="submit">Login</button>
+
+    </form>
+
     <button class="button2"(click)="router.navigate(['/forgotpassword']);" >Forgot password </button>
     <button class="button3"(click)="router.navigate(['/signup']);" >Sign Up</button>
