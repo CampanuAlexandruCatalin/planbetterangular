@@ -1,5 +1,5 @@
 export interface Teacher{
-    id: string | null,
+    id: number| null,
     email:string,
     name:string,
     dob:string,

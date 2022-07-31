@@ -4,8 +4,8 @@
 .img1{
   /* Logo */
   position: fixed;
-  width: 275px;
-  height: 200px;
+  width: 13.5%;
+  height: 20%;
   left: 139px;
   top: 0px;
 }
@@ -13,32 +13,32 @@
 h1{
   /* PlanBetter langa logo */
   position: fixed;
-  width: 346px;
-  height: 75px;
-  left: 414px;
+  width: 16.9%;
+  height: 15%;
+  left: 22%;
   top: 0px;
 
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
-  font-size: 64px;
+  font-size: 50px;
   line-height: 77px;
   color: #FFFFFF;
   }
   h2{
     /* Rectangle 2 */
   position: fixed;
-  width: 810px;
-  height: 770px;
-  left: 555px;
-  top: 164px;
+  width: 39.7%;
+  height: 86%;
+  left: 29%;
+  top: 90px;
   background: #FFFFFF;
   }
 
   h3{
     /* Linie */
     position: fixed;
-    width: 1921.5px;
+    width: 100%;
     height: 0px;
     left: 0px;
     top: 344.5px;
@@ -48,10 +48,10 @@ h1{
   h4{
     /* Login */
   position: fixed;
-  width: 810px;
+  width: 39.7%;
   height: 133px;
-  left: 556px;
-  top: 164px;
+  left: 29%;
+  top: 105px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -66,10 +66,10 @@ h1{
     /* Create an account and start plan better your exams. */
 
   position: fixed;
-  width: 810px;
+  width:39.7%;
   height: 53px;
-  left: 552px;
-  top: 245px;
+  left: 28%;
+  top: 165px;
 
   font-family: 'Inter';
   font-style: normal;
@@ -94,9 +94,9 @@ padding: 10px;
 gap: 10px;
 
 position: absolute;
-width: 270px;
+width: 13.4%;
 height: 46px;
-left: 20px;
+
 top: 25px;
 
 background: #147839;
@@ -106,8 +106,6 @@ border-radius: 6px;
 
 /* Button */
 
-width: 270px;
-height: 46px;
 
 font-family: 'Roboto';
 font-style: normal;
@@ -139,17 +137,16 @@ align-items: center;
 padding: 10px;
 gap: 10px;
 position: absolute;
-width: 270px;
+width: 13.4%;
 height: 46px;
-left: 830px;
- top: 825px;
+left: 41%; top: 590px;
 border: 2px solid #147839;
 border-radius: 6px;
 background: #ffffff;
 /* Button */
 
-width: 270px;
-height: 46px;
+
+
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
@@ -176,17 +173,15 @@ align-items: center;
 padding: 10px;
 gap: 10px;
 position: absolute;
-width: 270px;
+width: 13.4%;
 height: 46px;
-left: 830px;
- top: 895px;
+left: 41%; top: 650px;
 border: 2px solid #147839;
 border-radius: 6px;
 background: #ffffff;
 /* Button */
 
-width: 270px;
-height: 46px;
+
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
@@ -201,36 +196,36 @@ flex-grow: 0;
 
 }
 input[type=text], select {
-  width: 500px;
-  padding: 12px 20px;
-  margin: 8px 0;
+  width: 32%;
+  padding: 10px 15px;
+  margin: 6px 0;
   display: inline-block;
   border: 1px solid rgb(0, 0, 0);
   border-radius: 4px;
   box-sizing: border-box;
   position: fixed;
-  left:720px;
+  left: 32%;
 }
 input[type=password], select {
-  width: 500px;
-  padding: 12px 20px;
+  width: 32%;
+  padding: 10px 15px;
   margin: 8px 0;
   display: inline-block;
   border: 1px solid rgb(0, 0, 0);
   border-radius: 4px;
   box-sizing: border-box;
   position: fixed;
-  left:720px;
+  left:32%;
   top:520px;
 }
 
 .fnamel{
-  /* email label */
+  /* firstname label */
   position: fixed;
-  width: 810px;
+  width: 39.7%;
   height: 53px;
-  left: 370px;
-  top: 320px;
+  left: 15.5%;
+  top: 210px;
 
   font-family: 'Inter';
   font-style: normal;
@@ -243,12 +238,12 @@ input[type=password], select {
   }
 
   .lnamel{
-    /* email label */
+    /* lastname label */
     position: fixed;
-    width: 810px;
+    width: 39.7%;
     height: 53px;
-    left: 370px;
-    top: 400px;
+    left: 15.5%;
+    top: 270px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -263,10 +258,10 @@ input[type=password], select {
 .emaill{
 /* email label */
 position: fixed;
-width: 810px;
+width: 39.7%;
 height: 53px;
-left: 350px;
-top: 480px;
+left: 13.8%;
+top: 335px;
 
 font-family: 'Inter';
 font-style: normal;
@@ -281,10 +276,10 @@ color: #000000;
 .passwordl{
 /* password label */
 position: fixed;
-width: 810px;
+width: 39.7%;
 height: 53px;
-left: 370px;
-top: 560px;
+left: 15%;
+top: 410px;
 
 font-family: 'Inter';
 font-style: normal;
@@ -299,10 +294,10 @@ color: #000000;
 .rpasswordl{
   /* password label */
   position: fixed;
-  width: 810px;
+  width: 39.7%;
   height: 53px;
-  left: 405px;
-  top: 640px;
+  left: 17.5%;
+  top: 480px;
 
   font-family: 'Inter';
   font-style: normal;
@@ -317,16 +312,16 @@ color: #000000;
 
 .checkboxpos{
   position: fixed;
-  left: 715px;
-  top: 793px;
+  left: 35.5%;
+  top: 565px;
 }
 
 .checkboxtxtpos{
   position: fixed;
-width: 810px;
+  width: 39.7%;
 height: 53px;
-left: 480px;
-top: 790px;
+left: 27%;
+top: 560px;
 
 font-family: 'Inter';
 font-style: normal;
@@ -338,23 +333,130 @@ text-align: center;
 color: #000000;
 }
 .button1{
-  position: fixed;left: 830px; top: 825px;
+  position: fixed;left: 41%; top: 590px;
 }
 .button2{
-  position: fixed;left: 830px; top: 895px;
+  position: fixed;left: 41%; top: 650px;
 }
 #fname{
-  top:345px;
+  top:225px;
 }
 #lname{
-  top:425px;
+  top:285px;
 }
 #email{
-  top:505px;
+  top:355px;
 }
 #password{
-  top:585px;
+  top:425px;
 }
 #rpassword{
-  top:665px;
+  top:495px;
+}
+@media only screen and (max-width: 600px) {
+  .button1{
+     top: 700px;
+  }
+  .button2{
+    top: 770px;
+  }
+  h2{
+    /* Rectangle 2 */
+
+  width: 100%;
+  height: 50%;
+left:0%;
+  top: 230px;
+  }
+h4{
+  color:white;
+  top: 130px;
+}
+h5{
+  color:white;
+  width:100%;
+  left: 0%;
+  top: 170px;
+}
+.fnamel{
+  top:250px;
+  left: 13%;
+  }
+  .lnamel{
+    top:320px;
+    left: 13%;
+    }
+    #fname{
+      top:270px;
+
+    }
+    input[type=text], select {
+      width: 70%;
+      left: 20%;
+    }
+    #lname{
+      top:340px;
+    }
+    .emaill{
+      top:390px;
+      left: 7%;
+    }
+    #email{
+      top:410px;
+    }
+    .passwordl{
+      top:460px;
+      left: 12%;
+    }
+    input[type=password], select {
+      width: 70%;
+      left:20%;
+    }
+    #password{
+      top:480px;
+    }
+    .rpasswordl{
+      top:530px;
+      width: 45%;
+    }
+    #rpassword{
+      top:550px;
+    }
+    .checkboxpos{
+
+      left: 18%;
+      top: 615px;
+    }
+
+    .checkboxtxtpos{
+
+      width: 80%;
+    height: 53px;
+    left: 19%;
+    top: 610px;
+
+    }
+    .img1{
+top:-60px;
+width: 26%;
+left:150px;
+    }
+    h1{
+      top: 60px;
+      font-size: 45px;
+      left:25%;
+    }
+    button{
+
+    width:60%;
+    height: 46px;
+    background: white;
+    color:#147839;
+}
+.button1{
+  left: 25%;
+}
+.button2{
+  left: 25%;
+}
 }
