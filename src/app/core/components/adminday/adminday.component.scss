@@ -1,13 +1,38 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 @import url(https://fonts.googleapis.com/css?family=Inter);
-
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Inter);
+@import '@syncfusion/ej2-base/styles/material.css';
+@import '@syncfusion/ej2-buttons/styles/material.css';
+@import '@syncfusion/ej2-calendars/styles/material.css';
+@import '@syncfusion/ej2-dropdowns/styles/material.css';
+@import '@syncfusion/ej2-inputs/styles/material.css';
+@import '@syncfusion/ej2-lists/styles/material.css';
+@import '@syncfusion/ej2-popups/styles/material.css';
+@import '@syncfusion/ej2-navigations/styles/material.css';
+@import '@syncfusion/ej2-angular-schedule/styles/material.css';
 .img1{
   /* Logo */
 position: fixed;
-width: 77px;
+width: 5%;
 height: 56px;
 left: 0px;
-top: 13px;
+top: 1.5%;
+}
+
+h5{
+  position: fixed;
+  width: 39.7%;
+  height: 53px;
+  left: 86%;
+  top: 2%;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
 }
 
 h1{
@@ -15,9 +40,9 @@ h1{
 /* PlanBetter */
 
 position: fixed;
-width: 221px;
-height: 56px;
-left: 56px;
+width: 10%;
+height: 5%;
+left: 5%;
 top: 0px;
 
 font-family: 'Inter';
@@ -29,18 +54,17 @@ text-align: center;
 
 color: #FFFFFF;
 }
-
 h2{
   position: fixed;
-  width: 220px;
-  height: 870px;
-  left: 5px;
-  top: 69px;
+  width: 13%;
+  height: 90%;
+  left: 0.5%;
+  top: 10%;
   background: #FFFFFF;
 }
 
 input[type=text], select {
-  width: 500px;
+  width: 35%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
@@ -48,8 +72,8 @@ input[type=text], select {
   border-radius: 4px;
   box-sizing: border-box;
   position: fixed;
-  left:720px;
-  top:25px;
+  left:30%;
+  top:2%;
 }
 
 button{
@@ -105,33 +129,36 @@ button{
   }
 
   .button1{
-    position: fixed;left: 50px; top: 350px;
+    position: fixed;left: 3%; top: 30%;
   }
   .button2{
-    position: fixed;left: 50px; top: 400px;
+    position: fixed;left: 3%; top: 38%;
   }
   .button3{
-    position: fixed;left: 50px; top: 450px;
+    position: fixed;left: 3%; top: 46%;
   }
   .button4{
-    position: fixed;left: 50px; top: 500px;
+    position: fixed;left: 3%; top: 54%;
   }
   .button5{
-    position: fixed;left: 50px; top: 550px;
+    position: fixed;left: 3%; top: 62%;
   }
   .button6{
-    position: fixed;left: 50px; top: 600px;
+    position: fixed;left: 3%; top: 70%;
+  }
+
+  h6{
+    position: fixed;
+    width: 60%;
+    height: 7%;
+  left: 250px;
+  top: 80px;
+
   }
 
   .button7{
-    position: fixed;left: 50px; top: 650px;
+    position: fixed;left: 50px; top: 78%;
   }
   .button8{
-    position: fixed;left: 50px; top: 700px;
-  }
-
-  iframe{
-    position: fixed;
-    left: 1605px;
-    top: 35px;
+    position: fixed;left: 50px; top: 86%;
   }
