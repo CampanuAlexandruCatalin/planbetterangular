@@ -179,3 +179,50 @@ text-align: center;
 color: #ffffff;
 }
 
+@media only screen and (max-width: 600px) {
+
+  .img1{
+
+    width: 20%;
+
+        }
+        h1{
+          top:7%;
+          left:0%;
+
+          font-size: 25px;
+        }
+        h2{top:20%;
+          width: 25%;}
+          button{
+            width: 21%;
+          }
+          .button1{
+            font-size: 15px;
+          }
+
+          h6{
+            /* Welcome back. Login with your data that you entered during your registration. */
+          width: 37%;
+
+          left: 68%;
+          font-size: 17px;
+          }
+          h4{
+          left: 30%;
+          top: 13%;
+          font-size: 36px;
+          }
+          button:hover{width: 21%;}
+          .button1:hover{
+            font-size: 15px;
+          }
+          h5{
+            width: 75%;
+            top:17%;
+            font-size: 13px;
+            left:26%;
+          }
+
+
+}
