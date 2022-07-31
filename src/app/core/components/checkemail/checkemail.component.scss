@@ -4,85 +4,85 @@
 .img1{
   /* Logo */
   position: fixed;
-  width: 275px;
-  height: 200px;
-  left: 139px;
+  width: 13.5%;
+  height: 20%;
+  left:8% ;
   top: 0px;
 }
 
 h1{
   /* PlanBetter langa logo */
   position: fixed;
-  width: 346px;
-  height: 75px;
-  left: 414px;
+  width: 16.9%;
+  height: 15%;
+  left: 22%;
   top: 0px;
 
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
-  font-size: 64px;
+  font-size: 50px;
   line-height: 77px;
   color: #FFFFFF;
   }
-
-h2{
-  /* Rectangle 2 */
-position: fixed;
-width: 810px;
-height: 770px;
-left: 555px;
-top: 164px;
-background: #FFFFFF;
-}
-
-h3{
-  /* Linie */
+  h2{
+    /* Rectangle 2 */
   position: fixed;
-  width: 1921.5px;
-  height: 0px;
-  left: 0px;
-  top: 344.5px;
-  border: 1px solid #FFFFFF;
-}
+  width: 45.5%;
+  height: 86%;
+  left: 27%;
+  top: 13%;
+  background: #FFFFFF;
+  }
 
-h4{
-  /* Login */
-position: fixed;
-width: 810px;
-height: 133px;
-left: 556px;
-top: 164px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 39px;
-text-align: center;
-color: #000000;
-font-weight: bold;
-}
+  h3{
+    /* Linie */
+    position: fixed;
+    width: 100%;
+    height: 0px;
+    left: 0px;
+    top: 344.5px;
+    border: 1px solid #FFFFFF;
+  }
 
-h5{
-  /* Welcome back. Login with your data that you entered during your registration. */
+  h4{
+    /* Login */
+  position: fixed;
+  width: 39.7%;
+  height: 133px;
+  left: 28%;
+  top: 15%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  color: #000000;
+  font-weight: bold;
+  }
 
-position: fixed;
-width: 810px;
-height: 53px;
-left: 552px;
-top: 265px;
+  h5{
+    /* Create an account and start plan better your exams. */
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-text-align: center;
+  position: fixed;
+  width:39.7%;
+  height: 53px;
+  left: 28%;
+  top: 24%;
 
-color: #000000;
-}
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
 
-button{
+  color: #000000;
+  }
+
+
+  button{
   /* Property 1=Shadow */
 
 /* Auto layout */
@@ -94,9 +94,9 @@ padding: 10px;
 gap: 10px;
 
 position: absolute;
-width: 270px;
-height: 46px;
-left: 20px;
+width: 13.4%;
+height: 5%;
+
 top: 25px;
 
 background: #147839;
@@ -106,8 +106,6 @@ border-radius: 6px;
 
 /* Button */
 
-width: 270px;
-height: 46px;
 
 font-family: 'Roboto';
 font-style: normal;
@@ -125,7 +123,6 @@ order: 0;
 flex-grow: 0;
 
 }
-
 .button1:hover{
   /* Property 2=otlined */
 
@@ -139,15 +136,16 @@ align-items: center;
 padding: 10px;
 gap: 10px;
 position: absolute;
-width: 270px;
-height: 46px;
-left: 830px;
-top: 650px;
-
+width: 13.4%;
+height: 5%;
+left: 41%; top:73%;
 border: 2px solid #147839;
 border-radius: 6px;
 background: #ffffff;
 /* Button */
+
+
+
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
@@ -174,15 +172,15 @@ align-items: center;
 padding: 10px;
 gap: 10px;
 position: absolute;
-width: 270px;
-height: 46px;
-left: 830px;
- top: 720px;
-
+width: 13.4%;
+height: 5%;
+left: 41%; top:80%;
 border: 2px solid #147839;
 border-radius: 6px;
 background: #ffffff;
 /* Button */
+
+
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
@@ -209,14 +207,17 @@ align-items: center;
 padding: 10px;
 gap: 10px;
 position: absolute;
+width:10%;
+height: 5%;
+left: 43%;  top:87%;
 
-height: 46px;
-left: 890px; top: 790px;
-width: 170px;
 border: 2px solid #147839;
 border-radius: 6px;
 background: #ffffff;
 /* Button */
+
+
+
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
@@ -231,12 +232,81 @@ flex-grow: 0;
 
 }
 .button1{
-  position: fixed;left: 830px; top: 650px;
+  position: fixed;left: 41%; top:73%;
 }
 .button2{
-  position: fixed;left: 830px; top: 720px;
+  position: fixed;left: 41%; top:80%;
 }
 .button3{
-  position: fixed; left: 890px; top: 790px;
-  width: 170px;
+  position: fixed; left: 43%; top:87%;
+  width:10%;
+}
+
+@media only screen and (max-width: 600px) {
+
+  h2{
+    /* Rectangle 2 */
+
+  width: 100%;
+  height: 50%;
+left:0%;
+  top: 26%;
+  }
+h4{
+  color:white;
+  top: 15%;
+  width:100%;
+  left: 0%;
+}
+h5{
+  color:white;
+  width:100%;
+  left: 0%;
+  top: 21%;
+}
+button{
+
+  width:60%;
+
+  background: white;
+  color:#147839;
+}
+.img1{
+  top:-6%;
+  width: 26%;
+  left:40%;
+      }
+      h1{
+        top: 7%;
+        font-size: 45px;
+        left:25%;
+      }
+.button1{
+left: 25%;
+top: 35%;
+}
+.button2{
+left: 25%;
+top: 42%;
+}
+.button3{
+  left: 36%;
+  top: 49%;
+  width:40%;
+  }
+  .button1:hover{
+    left: 25%;
+    top: 35%;
+    width:60%;
+  }
+  .button2:hover{
+    left: 25%;
+    top: 42%;
+    width:60%;
+  }
+  .button3:hover{
+    left: 36%;
+  top: 49%;
+    width:60%;
+  }
 }
