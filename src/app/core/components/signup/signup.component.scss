@@ -6,7 +6,7 @@
   position: fixed;
   width: 13.5%;
   height: 20%;
-  left: 139px;
+  left:8% ;
   top: 0px;
 }
 
@@ -139,7 +139,7 @@ gap: 10px;
 position: absolute;
 width: 13.4%;
 height: 46px;
-left: 41%; top: 590px;
+left: 41%; top:83%;
 border: 2px solid #147839;
 border-radius: 6px;
 background: #ffffff;
@@ -175,7 +175,7 @@ gap: 10px;
 position: absolute;
 width: 13.4%;
 height: 46px;
-left: 41%; top: 650px;
+left: 41%; top: 91%;
 border: 2px solid #147839;
 border-radius: 6px;
 background: #ffffff;
@@ -225,7 +225,7 @@ input[type=password], select {
   width: 39.7%;
   height: 53px;
   left: 15.5%;
-  top: 210px;
+  top: 30%;
 
   font-family: 'Inter';
   font-style: normal;
@@ -243,7 +243,7 @@ input[type=password], select {
     width: 39.7%;
     height: 53px;
     left: 15.5%;
-    top: 270px;
+    top: 38%;
 
     font-family: 'Inter';
     font-style: normal;
@@ -261,7 +261,7 @@ position: fixed;
 width: 39.7%;
 height: 53px;
 left: 13.8%;
-top: 335px;
+top: 47%;
 
 font-family: 'Inter';
 font-style: normal;
@@ -279,7 +279,7 @@ position: fixed;
 width: 39.7%;
 height: 53px;
 left: 15%;
-top: 410px;
+top: 56%;
 
 font-family: 'Inter';
 font-style: normal;
@@ -297,7 +297,7 @@ color: #000000;
   width: 39.7%;
   height: 53px;
   left: 17.5%;
-  top: 480px;
+  top: 65%;
 
   font-family: 'Inter';
   font-style: normal;
@@ -313,7 +313,7 @@ color: #000000;
 .checkboxpos{
   position: fixed;
   left: 35.5%;
-  top: 565px;
+  top: 75%;
 }
 
 .checkboxtxtpos{
@@ -321,7 +321,7 @@ color: #000000;
   width: 39.7%;
 height: 53px;
 left: 27%;
-top: 560px;
+top: 75%;
 
 font-family: 'Inter';
 font-style: normal;
@@ -333,25 +333,25 @@ text-align: center;
 color: #000000;
 }
 .button1{
-  position: fixed;left: 41%; top: 590px;
+  position: fixed;left: 41%; top:83%;
 }
 .button2{
-  position: fixed;left: 41%; top: 650px;
+  position: fixed;left: 41%; top: 90%;
 }
 #fname{
-  top:225px;
+  top:32%;
 }
 #lname{
-  top:285px;
+  top:40%;
 }
 #email{
-  top:355px;
+  top:49%;
 }
 #password{
-  top:425px;
+  top:58%;
 }
 #rpassword{
-  top:495px;
+  top:67%;
 }
 @media only screen and (max-width: 600px) {
   .button1{
@@ -425,38 +425,39 @@ h5{
     .checkboxpos{
 
       left: 18%;
-      top: 615px;
+      top: 70%;
     }
 
     .checkboxtxtpos{
 
       width: 80%;
-    height: 53px;
     left: 19%;
-    top: 610px;
+    top: 70%;
 
     }
     .img1{
 top:-60px;
 width: 26%;
-left:150px;
+left:40%;
     }
     h1{
-      top: 60px;
+      top: 7%;
       font-size: 45px;
       left:25%;
     }
     button{
 
     width:60%;
-    height: 46px;
+
     background: white;
     color:#147839;
 }
 .button1{
   left: 25%;
+  top: 80%;
 }
 .button2{
   left: 25%;
+  top: 87%;
 }
 }
