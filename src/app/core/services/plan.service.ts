@@ -4,6 +4,7 @@ import { Observable } from 'rxjs';
 import { environment } from 'src/environments/environment';
 import { Student } from './models/studentModel';
 import { userModel } from './models/usermodel';
+import { loginModel } from './models/loginmodel';
 
 @Injectable({
   providedIn: 'root'
@@ -20,8 +21,8 @@ export class PlanService {
     return this.httpClient.get<Student>(url, options);
   }
 
-  login(userdata:userModel):Observable<userModel>{
-    const url = 'https://localhost:65047/api/User/email{email}';
+  login(userdata:loginModel):Observable<userModel>{
+    const url = `https://localhost:65047/api/User/email/${userdata.email},password/${userdata.password}`;
     const options = {
       headers: new HttpHeaders({}),
     };
