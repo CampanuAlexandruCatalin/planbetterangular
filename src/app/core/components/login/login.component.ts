@@ -41,10 +41,14 @@ export class LoginComponent implements OnInit {
       console.log(result);
       console.log(result.isAdmin);
 
-      if(result.isAdmin==true)
+      if(result)
       {
           this.router.navigate(["/admincalendar"]);
       }
+      if(!result)
+      {
+        this.router.navigate(["/studentcalendar"]);
+    }
     });
   }
 }
