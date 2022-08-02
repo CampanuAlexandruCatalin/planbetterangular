@@ -36,8 +36,6 @@ export class LoginComponent implements OnInit {
       password: this.loginDate.get('password')?.value,
     };
     this.loginService.login(userdata).subscribe((result) => {
-      console.log(result);
-      console.log(result.isAdmin);
 
       if(result===this.admin)
       {
