@@ -28,7 +28,8 @@ export class LoginComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  admin:any=1;
+  student:any=2;
   LoginForm() {
     const userdata = {
       email: this.loginDate.get('email')?.value,
@@ -38,9 +39,13 @@ export class LoginComponent implements OnInit {
       console.log(result);
       console.log(result.isAdmin);
 
-      if(result)
+      if(result===this.admin)
       {
           this.router.navigate(["/admincalendar"]);
+      }
+      if(result===this.student)
+      {
+          this.router.navigate(["/studentcalendar"]);
       }
       if(!result)
       {
