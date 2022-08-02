@@ -13,6 +13,8 @@ import { PlanService } from '../../services/plan.service';
   styleUrls: ['./login.component.scss'],
 })
 export class LoginComponent implements OnInit {
+  mesajeroare:string|undefined;
+
   constructor(
     public router: Router,
     private studentService: PlanService,
@@ -25,11 +27,6 @@ export class LoginComponent implements OnInit {
   });
 
   ngOnInit(): void {
-    this.studentService
-      .getStudentsinConsoleLog()
-      .subscribe((result: Student) => {
-        console.log(result);
-      });
   }
 
   LoginForm() {
@@ -47,8 +44,9 @@ export class LoginComponent implements OnInit {
       }
       if(!result)
       {
-        this.router.navigate(["/studentcalendar"]);
+        this.mesajeroare="Bad email or password.";
     }
+
     });
   }
 }

@@ -1,3 +1,3 @@
 export interface userModel{
-  isAdmin:boolean
+  isAdmin:string
 }
