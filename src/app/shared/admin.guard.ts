@@ -7,7 +7,10 @@ import { Observable } from 'rxjs';
 })
 export class AdminGuard implements CanActivate {
 
-  isAdmin=true;
+  private isAdmin=false;
+  setisAdmin(isAdmin:boolean){
+    this.isAdmin=isAdmin;
+  }
   canActivate(
     route: ActivatedRouteSnapshot,
     state: RouterStateSnapshot): Observable<boolean | UrlTree> | Promise<boolean | UrlTree> | boolean | UrlTree {

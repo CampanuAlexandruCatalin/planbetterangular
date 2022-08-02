@@ -5,6 +5,7 @@ import { Student } from '../../services/models/studentModel';
 import { userModel } from '../../services/models/usermodel';
 import { loginModel } from '../../services/models/loginmodel';
 import { PlanService } from '../../services/plan.service';
+import { AdminGuard } from 'src/app/shared/admin.guard';
 
 
 @Component({
@@ -18,7 +19,8 @@ export class LoginComponent implements OnInit {
   constructor(
     public router: Router,
     private studentService: PlanService,
-    private loginService: PlanService
+    private loginService: PlanService,
+    private adminGuard:AdminGuard
   ) {}
 
   loginDate: FormGroup = new FormGroup({
@@ -28,15 +30,20 @@ export class LoginComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
+
+  //adminGuard:AdminGuard=new AdminGuard();
   LoginForm() {
     const userdata = {
       email: this.loginDate.get('email')?.value,
       password: this.loginDate.get('password')?.value,
     };
     this.loginService.login(userdata).subscribe((result) => {
-      console.log(result);
+
       if(result===1)
       {
+          console.log(result);
+          this.adminGuard.setisAdmin(true);
           this.router.navigate(["/admincalendar"]);
       }
       if(result===2)
@@ -47,7 +54,6 @@ export class LoginComponent implements OnInit {
       {
         this.mesajeroare="Bad email or password.";
     }
-
     });
   }
 }
