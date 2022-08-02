@@ -28,24 +28,22 @@ export class LoginComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  admin:any=1;
-  student:any=2;
   LoginForm() {
     const userdata = {
       email: this.loginDate.get('email')?.value,
       password: this.loginDate.get('password')?.value,
     };
     this.loginService.login(userdata).subscribe((result) => {
-
-      if(result===this.admin)
+      console.log(result);
+      if(result===1)
       {
           this.router.navigate(["/admincalendar"]);
       }
-      if(result===this.student)
+      if(result===2)
       {
           this.router.navigate(["/studentcalendar"]);
       }
-      if(!result)
+      if(result===0)
       {
         this.mesajeroare="Bad email or password.";
     }

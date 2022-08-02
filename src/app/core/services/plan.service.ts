@@ -21,12 +21,12 @@ export class PlanService {
     return this.httpClient.get<Student>(url, options);
   }
 
-  login(userdata:loginModel):Observable<userModel>{
+  login(userdata:loginModel):Observable<number>{
     const url = `https://localhost:65047/api/User/email/${userdata.email},password/${userdata.password}`;
     const options = {
       headers: new HttpHeaders({}),
     };
-    return this.httpClient.post<userModel>(url,userdata);
+    return this.httpClient.post<number>(url,userdata);
  }
 
 }
