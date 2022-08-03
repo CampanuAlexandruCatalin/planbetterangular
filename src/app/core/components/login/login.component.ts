@@ -6,6 +6,7 @@ import { userModel } from '../../services/models/usermodel';
 import { loginModel } from '../../services/models/loginmodel';
 import { PlanService } from '../../services/plan.service';
 import { AdminGuard } from 'src/app/shared/admin.guard';
+import { StudentGuard } from 'src/app/shared/student.guard';
 
 
 @Component({
@@ -20,7 +21,8 @@ export class LoginComponent implements OnInit {
     public router: Router,
     private studentService: PlanService,
     private loginService: PlanService,
-    private adminGuard:AdminGuard
+    private adminGuard:AdminGuard,
+    private studentGuard:StudentGuard
   ) {}
 
   loginDate: FormGroup = new FormGroup({
@@ -42,12 +44,12 @@ export class LoginComponent implements OnInit {
 
       if(result===1)
       {
-          console.log(result);
           this.adminGuard.setisAdmin(true);
           this.router.navigate(["/admincalendar"]);
       }
       if(result===2)
       {
+          this.studentGuard.setisAdmin(true);
           this.router.navigate(["/studentcalendar"]);
       }
       if(result===0)

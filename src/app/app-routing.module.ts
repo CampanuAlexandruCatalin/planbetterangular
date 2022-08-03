@@ -13,6 +13,7 @@ import { StudentdayComponent } from './core/components/studentday/studentday.com
 import { StudenttimerComponent } from './core/components/studenttimer/studenttimer.component';
 import { SuccesnewpasswordComponent } from './core/components/succesnewpassword/succesnewpassword.component';
 import { AdminGuard } from './shared/admin.guard';
+import { StudentGuard } from './shared/student.guard';
 import { UsermanualComponent } from './core/components/usermanual/usermanual.component';
 
 const routes: Routes = [
@@ -65,6 +66,7 @@ const routes: Routes = [
   },
   {
     path: 'studentcalendar',
+    canActivate:[StudentGuard],
     pathMatch: 'full',
     component:StudentcalendarComponent
   },
@@ -75,11 +77,13 @@ const routes: Routes = [
   },
   {
     path: 'studentday',
+    canActivate:[StudentGuard],
     pathMatch: 'full',
     component:StudentdayComponent
   },
   {
     path: 'studenttimer',
+    canActivate:[StudentGuard],
     pathMatch: 'full',
     component:StudenttimerComponent
   },
